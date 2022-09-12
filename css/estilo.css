@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://unpkg.com/aos@2.3.1/dist/aos.js");
+.colorPrimario {
+  color: black; }
+
+.colorSecundario {
+  color: #EED950; }
+
+.colorBlanco {
+  color: white; }
+
+.bgColor {
+  background-color: black; }
+
+.bgColorSecundario {
+  background-color: #EED950; }
+
+a {
+  color: white; }
+
+h1 {
+  background-color: black; }
+
+input, button {
+  transition: 1s; }
+
+input:focus {
+  font-size: 22px; }
+
+button:hover {
+  font-size: 18px; }
+
+.btn-primario, .btn-secundario {
+  background-color: white;
+  border-color: black;
+  font-size: 14px; }
+
+.btn-secundario {
+  background-color: #EED950; }
+
+h1, h4 {
+  font-family: didoni-urw, serif; }
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  transition: 1s; }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #EED950; }
+
+.nav-link:hover {
+  cursor: pointer;
+  font-size: 23px; }
+
+/*MEDIA QUERIE*/
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    width: 230px; }
+  .navbar-light .navbar-toggler {
+    color: white;
+    background-color: #EED950; } }
+
+footer {
+  text-align: center;
+  background-color: colorSecundario; }
+  footer p img {
+    transition: 2s; }
+    footer p img:hover {
+      transform: translateY(-10px); }
