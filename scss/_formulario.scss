@@ -1,17 +1,17 @@
 input, button{
-	transition: 1s;}
+	transition: 2s;}
 	
 input:focus{
 	font-size: 22px;}
 
 button:hover{
-	font-size: 18px;}
+	font-size: 19px;}
 
 //clase base - extend clase base y modificar
 .btn-primario{
 	background-color: map-get($colores, colorBlanco);
 	border-color: map-get($colores, colorPrimario);
-    font-size: 14px;
+    font-size: 15px;
 
 }
 
